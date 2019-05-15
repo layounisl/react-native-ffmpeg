@@ -19,8 +19,6 @@ Pod::Spec.new do |s|
 
     s.default_subspec   = 'https'
 
-    s.dependency        'React'
-
     s.subspec 'min' do |ss|
         ss.source_files      = 'ios/RNFFmpegModule.m',
                                'ios/RNFFmpegModule.h'
